@@ -1,0 +1,22 @@
+{
+  "name": "podman-stats-extension",
+  "displayName": "Podman Stats Extension",
+  "description": "An extension to display podman stats in Podman Desktop",
+  "version": "0.0.2",
+  "icon": "icon.png",
+  "publisher": "Giovanni Scipione",
+  "license": "Apache-2.0",
+  "engines": {
+    "podman-desktop": ">=1.10.0"
+  },
+  "main": "./dist/extension.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@podman-desktop/api": "^1.20.2",
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}

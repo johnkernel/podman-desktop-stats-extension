@@ -1,0 +1,1 @@
+npm run build && podman build -t quay.io/k_giovanni_scipione/podman-stats-extension . && podman push quay.io/k_giovanni_scipione/podman-stats-extension
