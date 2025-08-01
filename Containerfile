@@ -4,6 +4,7 @@ COPY package.json /extension/
 COPY LICENSE /extension/
 COPY icon.png /extension/
 COPY README.md /extension/
+COPY config.json /extension/
 
 FROM scratch
 
